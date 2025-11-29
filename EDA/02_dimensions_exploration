@@ -8,7 +8,7 @@ SQL Functions Used:
     - ORDER BY
 ===============================================================================
 */
--- For dim_products table
+-- list of unique category, subcategory, etc from dim_products table
 SELECT DISTINCT category FROM gold.dim_products;
 
 SELECT DISTINCT subcategory, product_name FROM gold.dim_products ORDER BY 1 DESC;
@@ -17,7 +17,7 @@ SELECT DISTINCT maintenance FROM gold.dim_products;
 GO
 SELECT DISTINCT product_line FROM gold.dim_products ORDER BY product_line;
 
--- For dim_customers table
+-- list of unique country, gender, amrital_status from dim_customers table
 SELECT DISTINCT country FROM gold.dim_customers ORDER BY country;
 
 SELECT DISTINCT gender FROM gold.dim_customers;
