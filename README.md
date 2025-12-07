@@ -91,9 +91,7 @@ These views can be directly used in Power BI/Tableau dashboards.
 │
 ├── README.md
 │
-├── data/
-│   ├── raw/                     # (Optional) Raw CSV / source files
-│   └── processed/               # (Optional) Cleaned / transformed data
+├── datasets/
 │
 ├── sql/
 │   ├── exploratory_data_analysis.sql      # Initial database exploration & profiling
