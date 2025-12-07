@@ -100,7 +100,7 @@ These views can be directly used in Power BI/Tableau dashboards.
 │
 ├── docs/
 │   ├── project_overview.pdf     # (Optional) High-level documentation
-│   └── architecture.png         # (Optional) Diagrams / flowchart
+│   └── ERD.drawio.png         # Entity Relationship Diagram
 │
 └── assets/
     └── screenshots/             # Images for visualizations or documentation
