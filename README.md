@@ -99,7 +99,7 @@ These views can be directly used in Power BI/Tableau dashboards.
 │   ├── project_report.sql                 # Final business reports (customer + product)
 │
 ├── docs/
-│   ├── project_overview.pdf     # (Optional) High-level documentation
+│   ├── project_overview.pdf     # High-level documentation
 │   └── ERD.drawio.png         # Entity Relationship Diagram
 │
 └── assets/
